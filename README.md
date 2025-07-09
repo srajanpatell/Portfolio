@@ -1,5 +1,4 @@
 # Portfolio of Srajan Patel
-<a href="srajanpatel.vercel.app">Link🔗</a>
  
 This project was created with CRA (Create React App)
 
