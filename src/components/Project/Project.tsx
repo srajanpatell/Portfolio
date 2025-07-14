@@ -82,7 +82,7 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
+                <li>Next js.</li>
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>CoinGecko API</li>
