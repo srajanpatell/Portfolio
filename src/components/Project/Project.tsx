@@ -18,24 +18,24 @@ export function Project() {
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
-              <div className="project-links">
-                <a href="https://github.com/srajanpatell/BookWallah" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="GitHub" />
-                </a>
-              </div>
             </header>
             <div className="body">
-              <h3>Educational Website</h3>
+              <h3>API Development</h3>
               <p>
-              •   Developed an Educational Website that auto-adapts seamlessly to various screen sizes for optimal user experience. <br />
-              •   User Friendly Menu for easy access to content and visually appealing layout with interactive elements. 
+              •   Developed APIs for Air2z subsidiary alliance of ShipCo. Transport Pvt. Ltd. NY<br />
+              •   Performed various API operations like GET, POST, PUT, DELETE etc.<br />
+              •   Implemented authentication and authorization using JWT.<br />
+              •   Implemented rate limiting to prevent abuse of API.<br />
+              •   Implemented logging to track API usage and identify potential security issues. 
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>React</li>
-                <li>Tailwind</li>
-                <li>jQuery</li>
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>PyJWT</li>
+                <li>MySQL</li>
+                <li>Axios</li>
               </ul>
             </footer>
           </div>
@@ -46,16 +46,17 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://github.com/srajanpatell/Scheduler" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
                 </div>
             </header>
             <div className="body">
-              <h3>HR Scheduler</h3>
-              <p>• Built an HR Scheduler that schedules the HR Meetings/Interviews.<br />     
-              • Implemented Google Calendar API for Calendar Operations like Event Creation etc. </p>
+              <h3>Online Job Portal</h3>
+              <p>• Built an online job portal for students to apply for jobs.<br />
+              • Built Responsive UI using React js. | Material UI | Tailwind CSS. <br />
+              • Implemented Custom APIs for job applications.<br />
+              • Used Javascript Services for Backend Operations. <br />
+              • Performed CRUD operations and Manipulated data using MongoDB.</p>
             </div>
-            <footer> <ul className="tech-list"> <li>React</li> <li>Google Calendar API</li> <li>dJango</li> <li>Axios</li> <li>MySQL</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>React</li> <li>Express</li> <li>Node</li> <li>Axios</li> <li>MongoDB</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -71,16 +72,21 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Intervue.io</h3>
+              <h3>Cryptocurrency Exchange</h3>
               <p>
-              • Developed an frontend web application for intervue.io. <br />
+              • Designed a responsive UI using Material UI and Tailwind CSS. <br />
+              • Developed a cryptocurrency exchange Analytics application. <br />
+              • Implemented real-time price tracking using CoinGecko API. <br />
+              • Implemented real-time data fetching using WebSockets. <br />   
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>React</li>
-                <li>MaterialUI</li>
-                <li>TailwindCSS</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>CoinGecko API</li>
+                <li>Socket.io</li>
               </ul>
             </footer>
           </div>
