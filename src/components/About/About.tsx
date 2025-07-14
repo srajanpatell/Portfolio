@@ -40,8 +40,16 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>API Developer - Intern</h4>
-            <p>SC Solutions | March 2025 - Present</p>
+             <h3>Experience:</h3><h4>React.js Developer - Intern</h4>
+            <p>Fin Coopers Tech India Pvt. Ltd. | June 2025 - Present</p>
+            <p>Indore, India</p>
+          </div>
+        </ScrollAnimation><br />
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
+          <div className="experience">
+             <h4>API Developer - Intern</h4>
+            <p>SC Solutions | March 2025 - June 2025</p>
             <p>Indore, India</p>
           </div>
         </ScrollAnimation>
