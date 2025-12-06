@@ -41,7 +41,7 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
              <h3>Experience:</h3><h4>SDE</h4>
-            <p>ZenQua Technologies Pvt. Ltd. | Since August 2025</p>
+            <p>SC Solutions | August 2024 - July 2025</p>
             <p>Indore, India</p>
           </div>
         </ScrollAnimation><br />
@@ -49,7 +49,7 @@ export function About() {
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
              <h4>SDE</h4>
-            <p>SC Solutions | August 2024 - July 2025</p>
+            <p>ZenQua Technologies Pvt. Ltd. | Since August 2025</p>
             <p>Indore, India</p>
           </div>
         </ScrollAnimation>
