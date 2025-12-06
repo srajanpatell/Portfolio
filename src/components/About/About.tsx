@@ -1,10 +1,10 @@
 import { Container } from "./styles";
 import python from "../../assets/python.svg"
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import fastApi from "../../assets/fast-api.svg";
 import django from "../../assets/django.svg";
+import djangorest from "../../assets/django-rest.svg";
+import postgres from "../../assets/postgresql-icon.svg";
 import tailwind from "../../assets/tailwind.svg";
 import nextjs from "../../assets/next-js.svg";
 import profile from "../../assets/profile-removebg-preview (1).png"
@@ -22,7 +22,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Srajan, an enthusiastic Full Stack Developer skilled in web development and scalable software solutions
+            Hi there! I'm Srajan, an enthusiastic Software Development Engineer skilled in web development and scalable software solutions
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
@@ -40,16 +40,16 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>React.js Developer - Intern</h4>
-            <p>Fin Coopers Tech India Pvt. Ltd. | June 2025 - Present</p>
+             <h3>Experience:</h3><h4>SDE</h4>
+            <p>ZenQua Technologies Pvt. Ltd. | Since August 2025</p>
             <p>Indore, India</p>
           </div>
         </ScrollAnimation><br />
 
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h4>API Developer - Intern</h4>
-            <p>SC Solutions | March 2025 - June 2025</p>
+             <h4>SDE</h4>
+            <p>SC Solutions | August 2024 - July 2025</p>
             <p>Indore, India</p>
           </div>
         </ScrollAnimation>
@@ -61,6 +61,11 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
               <img src={python} alt="python" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
+              <img src={djangorest} alt="Django REST" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -99,13 +104,8 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={htmlIcon} alt="Html" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={cssIcon} alt="Css" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+              <img src={postgres} alt="PostgreSQL" />
             </ScrollAnimation>
           </div>
           <div className="hability">

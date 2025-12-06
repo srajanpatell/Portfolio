@@ -5,8 +5,9 @@ import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 import python from "../../assets/python.svg"
-import java from "../../assets/java.svg"
-import wordpress from "../../assets/wordpress.svg";
+import js from "../../assets/js-icon.svg"
+import mysqlIcon from "../../assets/mysql-icon.svg"
+import django from "../../assets/django.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
@@ -161,7 +162,7 @@ export function Main() {
                   "height": 20
                 },
                 {
-                  "src": wordpress,
+                  "src": django,
                   "width": 20,
                   "height": 20
                 },
@@ -180,18 +181,18 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": mysqlIcon,
+                  "width": 20,
+                  "height": 20
+                },
                 {
                   "src": python,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": java,
+                  "src": js,
                   "width": 20,
                   "height": 20
                 },
