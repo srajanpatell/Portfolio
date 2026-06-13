@@ -11,6 +11,27 @@ export function Project() {
       <h2>My Projects</h2>
       <div className="projects">
 
+      <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+                <a href="https://www.twistbioscience.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" /></a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Full Stack Development (Twist Biosciences)</h3>
+              <p>• Developed and deployed a full-stack solution using ReactJS and Django Rest Framework to manage critical data workflows.<br />
+              • API Development: Designed robust Python/Django RESTful APIs to ensure seamless data exchange and scalability within the system. <br />
+              • Database Integration: Implemented and managed the application's persistent data layer using PostgreSQL for reliable data storage and retrieval.<br />
+              • State Management: Optimized the user experience and application performance by utilizing Redux for predictable and centralized state management on the frontend. <br />
+              • Performed CRUD operations and Manipulated data using Postgres.</p>
+            </div>
+            <footer> <ul className="tech-list"><li>Python</li> <li>React</li> <li>DjangoREST</li> <li>Postgres</li></ul> </footer>
+          </div>
+        </ScrollAnimation>
+
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -42,27 +63,6 @@ export function Project() {
                 <li>Axios</li>
               </ul>
             </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-                <a href="https://www.twistbioscience.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Full Stack Development (Twist Biosciences)</h3>
-              <p>• Developed and deployed a full-stack solution using ReactJS and Django Rest Framework to manage critical data workflows.<br />
-              • API Development: Designed robust Python/Django RESTful APIs to ensure seamless data exchange and scalability within the system. <br />
-              • Database Integration: Implemented and managed the application's persistent data layer using PostgreSQL for reliable data storage and retrieval.<br />
-              • State Management: Optimized the user experience and application performance by utilizing Redux for predictable and centralized state management on the frontend. <br />
-              • Performed CRUD operations and Manipulated data using Postgres.</p>
-            </div>
-            <footer> <ul className="tech-list"><li>Python</li> <li>React</li> <li>DjangoREST</li> <li>Postgres</li></ul> </footer>
           </div>
         </ScrollAnimation>
 
